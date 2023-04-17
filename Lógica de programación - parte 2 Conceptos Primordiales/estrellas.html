@@ -1,0 +1,39 @@
+ <meta charset="UTF-8">
+
+<h1>Adivinando tu número</h1>
+
+<script>
+
+function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+    
+
+for(var lineas = 1; lineas <= 5; lineas++){
+    
+    for(var columnas = 1; columnas <= 15; columnas++){
+    
+        document.write("*");
+     
+    }
+
+    saltarLinea();
+   
+
+}
+
+saltarLinea();
+saltarLinea();
+
+imprimir("fin");
+
+
+
+</script>
+
